@@ -7,11 +7,9 @@ function App() {
   const [users, setUsers] = useState([])
 
   useEffect(()=>{
-    console.log(`${backEndURL}/users`)
     fetch(`${backEndURL}/users`)
       .then(res => res.json())
       .then(users => {
-        console.log(users)
         setUsers(users)
       })
   }, [])
