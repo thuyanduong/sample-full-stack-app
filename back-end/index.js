@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.status(200).json({message: "This Ann's API"})
+  res.status(200).json({message: "This Ann's Express API"})
 })
 
 app.get('/users', async (req, res) => {
