@@ -1,4 +1,4 @@
-## [Click here to watch a video on how I deploy this app to Heroku](https://youtu.be/HbyRTlGwwqk)
+## [Click here to watch a video on how I deploy this app to Heroku](https://youtu.be/pw2ponzsHNY)
 
 ![meme](https://i.imgflip.com/5b3cw0.jpg)
 
