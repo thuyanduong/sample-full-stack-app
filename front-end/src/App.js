@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. 
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         {
           users.map(user => <div key={user.id}>{user.name}</div>)
