@@ -1,3 +1,5 @@
+[Click here to watch a video on how I deploy this app to Heroku](https://youtu.be/HbyRTlGwwqk)
+
 ![meme](https://i.imgflip.com/5b3cw0.jpg)
 
 ### Additional Resources
