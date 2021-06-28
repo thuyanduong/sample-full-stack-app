@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import Comment from './models/Comment'
+
+let comment: Comment
+comment = {content: "Hello, World!", author: "Zuko"}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App comment={comment}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
